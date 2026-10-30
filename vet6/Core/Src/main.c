@@ -1,5 +1,5 @@
 /* USER CODE BEGIN Header */
-/**盗版的人我操你妈逼，剽窃者死爹死妈，你妈炸了，祝你延毕死全家，我操你妈的。傻逼
+/*
  ******************************************************************************
  * @file           : main.c
  * @brief          : Main program body
@@ -29,7 +29,6 @@
 #include <security.h>
 #include <youseeme.mp3>
 #include <lsy.h>
-#include <lisiyu.iloveyou>
 #define ADDR_24LCxx_Write 0xA0
 #define ADDR_24LCxx_Read 0xA1
 #define BufferSize 256
