@@ -58,36 +58,6 @@ void safety_light(int time)//安全时候执行正常开灯
 
 void initialize(void)
 {
-  //宋楠毕设
-    OLED_ShowCHinese(0, 0, 0);			  
-    OLED_ShowCHinese(16, 0, 1);
-    OLED_ShowCHinese(32, 0, 2);			  
-    OLED_ShowCHinese(48, 0, 3);
-  //指导教师常凤筠
-    HAL_Delay(1000);
-    OLED_ShowCHinese(0, 2, 5);			  
-    OLED_ShowCHinese(16, 2, 6);
-    OLED_ShowCHinese(32, 2, 7);			  
-    OLED_ShowCHinese(48, 2, 8);	
-    OLED_ShowCHinese(64, 2, 9);			  
-    OLED_ShowCHinese(80, 2, 10);
-    OLED_ShowCHinese(96, 2, 11);
-  //鸣谢：李思雨
-    HAL_Delay(1000);
-    OLED_ShowCHinese(0, 4, 130);			  
-    OLED_ShowCHinese(16, 4, 131);
-    OLED_ShowCHinese(32, 4, 85);			  
-    OLED_ShowCHinese(48, 4, 41);
-    OLED_ShowCHinese(64, 4, 42);			  
-    OLED_ShowCHinese(80, 4, 43);
-	//模块连接正常
-    HAL_Delay(1000);
-    OLED_ShowCHinese(0, 6, 16);			  
-    OLED_ShowCHinese(16, 6, 17);
-    OLED_ShowCHinese(32, 6, 18);			  
-    OLED_ShowCHinese(48, 6, 19);
-    OLED_ShowCHinese(64, 6, 20);			  
-    OLED_ShowCHinese(80, 6, 21);
   //请不要断电
     HAL_Delay(1000);
     OLED_Clear();
